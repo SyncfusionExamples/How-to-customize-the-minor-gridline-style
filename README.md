@@ -1,14 +1,14 @@
 # How-to-customize-the-minor-gridline-style
 
-This article explains how to customize the minor gridline in Blazor chart.
+This article explains how to customize the minor gridline in Blazor Chart Component.
 
-**Customizing minor gridline style in Blazor chart component**
+**Customizing minor gridline style in Blazor chart**
  
-[Blazor chart](https://www.syncfusion.com/blazor-components/blazor-charts) provides support to customize the minor gridlines. The width, color, and dash array of the minor gridlines can be customized by using [MinorGridLines](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartCommonAxis.html#Syncfusion_Blazor_Charts_ChartCommonAxis_MinorGridLines) properties in the axis.
+[Blazor chart](https://www.syncfusion.com/blazor-components/blazor-charts) provides support to customize the minor gridlines. The width, color, and dash array of the minor gridlines can be customized by using [MinorGridLines](https://help.syncfusion.com/cr/blazor/Syncfusion.Blazor.Charts.ChartAxis.html#Syncfusion_Blazor_Charts_ChartAxis_MinorGridLines) properties in the axis.
 
-The following code illustrates how to customize the minor gridlines.
+The following code example illustrates how to customize the minor gridlines.
 
-**C#**
+**Index.razor**
 
 ```cshtml
 
@@ -53,12 +53,11 @@ The following code illustrates how to customize the minor gridlines.
         new ChartData { X= "Brazil", Y= 75.9 },
         new ChartData { X= "China", Y= 51.4 }
     };
-
 }
 
 ```
 
-The following screenshot illustrate the output of the above code snippet.
+The following screenshot illustrates the output of the above code snippet.
 
 **Output:**
  
@@ -73,6 +72,3 @@ You can refer to our [Blazor Chart feature tour](https://www.syncfusion.com/blaz
 For current customers, you can check out our components from the [License and Downloads](https://www.syncfusion.com/sales/teamlicense) page. If you are new to Syncfusion, you can try our 30-day [free trial](https://www.syncfusion.com/downloads/blazor) to check out our other controls.
 
 If you have any queries or require clarifications, please let us know in the comments section below. You can also contact us through our [support forums](https://www.syncfusion.com/forums), [support portal](https://support.syncfusion.com/create), or [feedback portal](https://www.syncfusion.com/feedback/blazor-components?control=charts). We are always happy to assist you!
-
-
-
